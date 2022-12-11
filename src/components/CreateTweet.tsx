@@ -29,8 +29,7 @@ export function CreateTweet() {
 
     try {
       await tweetSchema.parse({ text });
-    } catch (e) {
-      //@ts-ignore
+    } catch (e: any) {
       setError(e.message);
       return;
     }
