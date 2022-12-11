@@ -195,7 +195,7 @@ function Tweet({
 }
 
 export function Timeline({
-  where = {},
+  where = {} || undefined,
 }: {
   where: RouterInputs["tweet"]["timeline"]["where"];
 }) {

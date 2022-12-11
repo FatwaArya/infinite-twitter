@@ -23,7 +23,8 @@ const Home: NextPage = () => {
       >
         login
       </button>
-      <Timeline />
+      //ignore this
+      <Timeline where={undefined} />
     </>
   );
 };
